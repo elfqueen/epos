@@ -1,0 +1,279 @@
+/*!
+ * Start Bootstrap - SB Admin (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin-top: 100px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+}
+
+#wrapper {
+    padding-left: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+
+a.hover{
+    border-top: 2px dashed #ff8fc1;
+    border-bottom: 2px dashed #ff8fc1; 
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #999;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #000;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+ul.message-dropdown {
+    padding: 0;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+li.message-preview {
+    width: 275px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+li.message-preview>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li.message-footer {
+    margin: 5px 0;
+}
+
+ul.alert-dropdown {
+    width: 200px;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 51px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #F58F84;  /*tukar warna sidebar dekat sini*/
+        bottom: 0;
+        font-family: 'Raleway', sans-serif;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #000 !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: white;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+/*color 1*/
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+/*color 2*/
+.panel-pink {
+    border-color: #BE90D4;
+}
+
+.panel-pink > .panel-heading {
+    border-color: #BE90D4;
+    color: #fff;
+    background-color: #BE90D4;
+}
+
+.panel-pink > a {
+    color: #BE90D4;
+}
+
+.panel-pink > a:hover {
+    color: #3d8b3d;
+}
+
+/*color 3*/
+.panel-red {
+    border-color: #fc727a;
+}
+
+.panel-red > .panel-heading {
+    border-color: #fc727a;
+    color: #fff;
+    background-color: #fc727a;
+}
+
+.panel-red > a {
+    color: #fc727a;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+/*color 4*/
+.panel-pretty {
+    border-color: #19B5FE;
+}
+
+.panel-pretty > .panel-heading {
+    border-color: #19B5FE;
+    color: #fff;
+    background-color: #19B5FE;
+}
+
+.panel-pretty > a {
+    color: #19B5FE;
+}
+
+.panel-pretty > a:hover {
+    color: #3d8b3d;
+}
+
+/*color 5*/
+.panel-turk {
+    border-color: #36D7B7;
+}
+
+.panel-turk > .panel-heading {
+    border-color: #36D7B7;
+    color: #fff;
+    background-color: #36D7B7;
+}
+
+.panel-turk > a {
+    color: #36D7B7;
+}
+
+.panel-turk > a:hover {
+    color: #df8a13;
+}
