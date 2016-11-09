@@ -1,2 +1,2 @@
 # epos
-pos management system (sistem pengurusan pos) politeknik malaysia
+pos management system (sistem pengurusan pos) politeknik mersing johor malaysia
